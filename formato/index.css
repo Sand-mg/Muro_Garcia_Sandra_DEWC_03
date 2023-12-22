@@ -1,0 +1,83 @@
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+    background-color: antiquewhite;
+    width: 50%;
+}
+
+h2{
+    text-align: center;
+}
+
+.piano{
+    display:flex;
+    justify-content: center;
+    margin-top: 6%;
+    position: relative;
+}
+.tecla{
+    margin: -2px;
+}
+.blanca{
+    border: solid;
+    width: 75px;
+    height: 200px;
+    font-size: 0.75em;
+}
+/*.blanca:hover{
+    background-color: azure;
+}*/
+.negra{
+    border: solid;
+    border-color: black;
+    width: 30px;
+    height: 125px;
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+    margin-left: -15px;
+    margin-right: -15px;
+    z-index: 2;
+    position: absolute;
+}
+
+.botonCancion{
+    display: flex;
+    justify-content: center;
+}
+
+.botonCancion button{
+    margin: 2%;
+}
+
+/*Página de Login*/
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+form label{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+#botonNuevo {
+    margin-left: 30%;
+    width: 30%;
+    background-color: azure;
+}
+
+#errorMensaje {
+    margin-left: 30%;
+    width: 30%;
+    background-color: #ffcccc;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+}
